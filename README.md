@@ -30,10 +30,11 @@ O grupo WB iniciou um projeto para atender o público masculino também, oferece
 especializados.
 <br>
 O trabalho da sua empresa é **desenvolver uma agenda de clientes para o grupo WB. Esta agenda, inicialmente, será um sistema do tipo cli (command-line interface), ou seja, deverá funcionar sem uma interface gráfica muito elaborada, apenas pela linha de comando.** Além disso, cada unidade terá sua própria agenda, os dados não serão compartilhados entre as unidades do grupo WB.
-<br> A agenda deverá ter as seguintes funcionalidades de cadastro:
-• CRUD (Create, Read, Update e Delete) de clientes.
-• CRUD de produtos ou serviços.
-• Registro de consumo dos produtos ou serviços que cada cliente adquiriu.
+<br>
+A agenda deverá ter as seguintes funcionalidades de cadastro:
+- CRUD (Create, Read, Update e Delete) de clientes.
+- CRUD de produtos ou serviços.
+- Registro de consumo dos produtos ou serviços que cada cliente adquiriu.
 <br>
 A equipe de TI, que trabalha no grupo WB, forneceu um diagrama de classes e um repositório para auxiliar o desenvolvimento do sistema. Este sistema, começou como um projeto interno, mas tornou-se inviável porque a equipe do grupo WB não possui a competência técnica que a sua empresa disponibiliza. A Figura 1 mostra o diagrama de classe criado pela equipe de TI do grupo WB.
 A equipe de TI do grupo WB deixou o software desenvolvido em um repositório remoto, disponível no
