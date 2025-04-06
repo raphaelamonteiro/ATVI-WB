@@ -15,10 +15,11 @@ Apesar de simples, um bom programa de cadastro de clientes traz informações qu
 <br>
 A partir do perfil de um cliente é possível saber sua preferência por certos produtos ou serviços. O fundamental para atrair cada cliente é conhecer o que realmente desperta sua atenção. <br>
 Alguns pontos principais sobre o cadastro de clientes são:
-• Começar o cadastro pelos dados principais ou mais relevantes.
-• Usar o cadastro para manter os clientes contato constante e com isso informar seus clientes das novidades de serviços ou produtos.
-• Usar as informações do cadastro para ofertar produtos complementares a outros serviços e promoções.
-• Manter uma agenda para contatos futuros e base para análise estratégica de marketing.
+- Começar o cadastro pelos dados principais ou mais relevantes.
+- Usar o cadastro para manter os clientes contato constante e com isso informar seus clientes das novidades de serviços ou produtos.
+- Usar as informações do cadastro para ofertar produtos complementares a outros serviços e promoções.
+- Manter uma agenda para contatos futuros e base para análise estratégica de marketing.
+  
 # :dart: Atividade:
 Considere que você é um empreendedor e está iniciando as atividades da sua empresa. Um dos primeiros clientes que lhe procurou foi um grupo forte que atua no ramo de estética, o Grupo World Beauty (WB).
 <br>
