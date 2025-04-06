@@ -46,7 +46,8 @@ A Figura 2 contém um código, com o caminho para o repositório remoto, onde es
 4. Listagem dos serviços ou produtos mais consumidos por gênero.
 5. Listagem dos 10 clientes que menos consumiram produtos ou serviços.
 6. Listagem dos 5 clientes que mais consumiram em valor, não em quantidade.
-Antes de entregar o sistema, sua empresa deve testá-lo, **cadastrando pelo menos 30 clientes e 20 produtos.** Além disso, devem ser testadas todas as funcionalidades.
+<br>
+Antes de entregar o sistema, sua empresa deve testá-lo, **cadastrando pelo menos 30 clientes e 20 produtos**. Além disso, devem ser testadas todas as funcionalidades.
 <br>Sua empresa pode escolher utilizar ou não os códigos de auxílio.
 <br>
 🏁 Para entregar o produto desenvolvido, um novo repositório deverá ser criado. Neste repositório, sua empresa deverá colocar todos os códigos ou informações necessárias para que a equipe de TI do grupo WB possa disponibilizar o sistema para cada uma de suas unidades.
