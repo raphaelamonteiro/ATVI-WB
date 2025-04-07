@@ -20,10 +20,12 @@ Alguns pontos principais sobre o cadastro de clientes são:
 - Usar as informações do cadastro para ofertar produtos complementares a outros serviços e promoções.
 - Manter uma agenda para contatos futuros e base para análise estratégica de marketing.
   
-# :dart: Atividade:
+# :bulb: Atividade:
 Considere que você é um empreendedor e está iniciando as atividades da sua empresa. Um dos primeiros clientes que lhe procurou foi um grupo forte que atua no ramo de estética, o 💄 Grupo World Beauty (WB).
 <br>
-O grupo WB possui um modelo de negócio focado em pequenas unidades espalhadas por várias cidades no país. Cada unidade oferece serviços comumente procurados pelo público feminino como manicure, pedicure,
+O grupo WB possui um modelo de negócio focado em pequenas unidades espalhadas por várias cidades no país. 
+<br>
+Cada unidade oferece serviços comumente procurados pelo público feminino como manicure, pedicure,
 design de sobrancelhas, corte e pintura de cabelos. Além destes, também são oferecidos outros serviços de estética como remoção de rugas, remoção de manchas na pele, aplicação de Botox, tratamento para emagrecimento e redução de medidas.
 <br>
 O grupo WB iniciou um projeto para atender o público masculino também, oferecendo serviços de barbearia como corte de cabelo, modelagem e corte de barba, tratamento para quedas de cabelo e venda de produtos
@@ -31,7 +33,7 @@ especializados.
 <br>
 O trabalho da sua empresa é **desenvolver uma agenda de clientes para o grupo WB. Esta agenda, inicialmente, será um sistema do tipo cli (command-line interface), ou seja, deverá funcionar sem uma interface gráfica muito elaborada, apenas pela linha de comando.** Além disso, cada unidade terá sua própria agenda, os dados não serão compartilhados entre as unidades do grupo WB.
 <br>
-A agenda deverá ter as seguintes funcionalidades de cadastro:
+:spiral_notepad: A agenda deverá ter as seguintes funcionalidades de cadastro:
 - CRUD (Create, Read, Update e Delete) de clientes.
 - CRUD de produtos ou serviços.
 - Registro de consumo dos produtos ou serviços que cada cliente adquiriu.
@@ -40,7 +42,8 @@ A equipe de TI, que trabalha no grupo WB, forneceu um diagrama de classes e um r
 A equipe de TI do grupo WB deixou o software desenvolvido em um repositório remoto, disponível no
 endereço: https://github.com/gerson-pn/atvi-wb-typescript. <br>
 A Figura 2 contém um código, com o caminho para o repositório remoto, onde estão os códigos de auxílio.
-<br> Muito do que o grupo WB precisa ainda não está implementado. Desta forma o grupo WB listou algumas funcionalidades que o sistema precisa ter, elas são:
+<br> Muito do que o grupo WB precisa ainda não está implementado. <br>
+  :dart: Desta forma o grupo WB listou algumas funcionalidades que o sistema precisa ter, elas são:
 1. Listagem dos 10 clientes que mais consumiram produtos ou serviços, em quantidade, não em valor.
 2. Listagem de todos os clientes por gênero.
 3. Listagem geral dos serviços ou produtos mais consumidos.
@@ -48,7 +51,7 @@ A Figura 2 contém um código, com o caminho para o repositório remoto, onde es
 5. Listagem dos 10 clientes que menos consumiram produtos ou serviços.
 6. Listagem dos 5 clientes que mais consumiram em valor, não em quantidade.
 <br>
-Antes de entregar o sistema, sua empresa deve testá-lo, **cadastrando pelo menos 30 clientes e 20 produtos**. Além disso, devem ser testadas todas as funcionalidades.
+Antes de entregar o sistema, sua empresa deve testá-lo, cadastrando pelo menos 30 clientes e 20 produtos. Além disso, devem ser testadas todas as funcionalidades.
 <br>Sua empresa pode escolher utilizar ou não os códigos de auxílio.
 <br>
 🏁 Para entregar o produto desenvolvido, um novo repositório deverá ser criado. Neste repositório, sua empresa deverá colocar todos os códigos ou informações necessárias para que a equipe de TI do grupo WB possa disponibilizar o sistema para cada uma de suas unidades.
