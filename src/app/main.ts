@@ -7,7 +7,7 @@ import ListagemClientes from "../negocio/ListagemCliente";
 import ListagemProdutos from "../negocio/ListagemProduto";
 import ListagemServicos from "../negocio/ListagemServico"; // Adicionando a importação da classe ListagemServicos
 
-console.log(`Bem-vindo ao cadastro de clientes do Grupo World Beauty`);
+console.log(`Bem-vindo ao cadastro de clientes do Grupo World Beauty💄`);
 let empresa = new Empresa();
 let execucao = true;
 
