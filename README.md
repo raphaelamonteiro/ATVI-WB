@@ -39,7 +39,7 @@ Um dos primeiros clientes é o **💄 Grupo World Beauty (WB)**, que atua no ram
 - Serviços para o público feminino: manicure, pedicure, design de sobrancelhas, corte e pintura de cabelos, estética facial (remoção de rugas, manchas, Botox) e tratamentos para emagrecimento.
 - Serviços para o público masculino: barbearia, modelagem de barba, corte de cabelo, tratamento para queda de cabelo e venda de produtos especializados.
 
-### 🎯 Seu objetivo:
+### 🎯 Objetivo:
 Desenvolver uma **Agenda de Clientes** para o grupo WB.
 
 - Sistema **CLI** (Command-Line Interface)
@@ -62,18 +62,52 @@ Desenvolver uma **Agenda de Clientes** para o grupo WB.
 
 ---
 
+## ✅ Pré-requisitos
+
+Antes de rodar o sistema, certifique-se de ter instalado:
+
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- npm (vem junto com o Node.js)
+
+Verifique se estão instalados com:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## ▶️ Como executar o projeto
+
+1. **Clone este repositório:**
+
+```bash
+git clone https://github.com/raphaelamonteiro/ATVI-WB.git
+cd nome-da-pasta
+```
+
+2. **Instale as dependências:**
+
+```bash
+npm install typescript ts-node @types/node --save-dev
+```
+
+3. **Execute o sistema:**
+
+```bash
+npx ts-node src/app/main.ts
+```
+
+> Obs: o projeto é executado via CLI (linha de comando) e não possui interface gráfica.
+
+---
+
 ## 🧩 Materiais de apoio
 A equipe de TI do grupo WB forneceu um diagrama de classes e um repositório base para auxiliar:  
 🔗 [Repositório auxiliar - atvi-wb-typescript](https://github.com/gerson-pn/atvi-wb-typescript)
 
 > Observação: Grande parte do que o grupo precisa ainda **não está implementado** no repositório de apoio.
-
----
-
-## 📝 Requisitos de entrega
-- Cadastrar **no mínimo 30 clientes** e **20 produtos** para testes.
-- Testar todas as funcionalidades obrigatórias.
-- Criar um **novo repositório** contendo todos os códigos e instruções necessárias para a instalação e execução do sistema.
 
 ---
 
