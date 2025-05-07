@@ -1,7 +1,7 @@
 import Produto from "../models/Produto";
 import Listagem from "./Listagem";
 
-export default class ListagemProdutos extends Listagem {
+export default class ListagemProduto extends Listagem {
   private produtos: Array<Produto>;
 
   constructor(produtos: Array<Produto>) {
@@ -10,13 +10,13 @@ export default class ListagemProdutos extends Listagem {
   }
 
   public listar(): void {
-    console.log(`\nLista de todos os produtos:`);
+    console.log("\n============Listagem de todos os Produtos============");
     this.produtos.forEach((produto) => {
-      // Corrigido para 'produto', pois estamos lidando com produtos
-      console.log(`Nome: ` + produto.nome); // Usar 'produto.nome', não 'Produto.nome'
-      console.log(`Valor: ` + produto.valor); // 'valor' é um número, então não precisa de getValor()
-      console.log(`--------------------------------------`);
+      console.log("ID: " + produto.getId);
+      console.log("Nome: " + produto.nome);
+      console.log("Preço: " + produto.preco);
+      console.log("Vendas: " + produto.vendas);
+      console.log("\n---------------------------------\n");
     });
-    console.log(`\n`);
   }
 }
