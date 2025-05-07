@@ -111,12 +111,5 @@ A equipe de TI do grupo WB forneceu um diagrama de classes e um repositório bas
 
 ---
 
-## 🏁 Considerações finais
-Este projeto tem como objetivo estimular:
-- A organização de código com **boas práticas**
-- O uso de **TypeScript** aplicado à orientação a objetos
-- A criação de **interfaces de linha de comando** (CLI) simples, mas funcionais
-- A aplicação prática de conceitos de **CRUD** e **análises básicas de dados**
-
----
 > Feito com 💙 e dedicação!
+> Por  [Raphaela Monteiro](https://github.com/raphaelamonteiro)
