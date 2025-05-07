@@ -13,19 +13,12 @@ export default class CadastroServico extends Cadastro {
   }
 
   public cadastrar(): void {
-    console.log(`\nInício do cadastro do serviço`);
-
-    let nome = this.entrada.receberTexto(
-      `Por favor informe o nome do serviço: `
-    );
-    let valor = this.entrada.receberNumero(
-      `Por favor informe o valor do serviço: `
-    );
-
-    let servico = new Servico(nome, valor); // Convertendo valor para número
-
-    this.servicos.push(servico); // Agora estamos passando o objeto produto
-
-    console.log(`\nCadastro concluído :)\n`);
+    console.log(`\n=================Cadastro Serviços=================`);
+    let id = this.entrada.receberTexto(`ID do Serviço: `);
+    let nome = this.entrada.receberTexto(`Nome do Serviço: `);
+    let preco = this.entrada.receberTexto(`Preço do Serviço: `);
+    let servico = new Servico(id, nome, preco);
+    this.servicos.push(servico);
+    console.log(`Cadastro do Serviço: ${nome} Concluido! 🎉`);
   }
 }
