@@ -1,68 +1,58 @@
 import CPF from "./CPF";
+import Servico from "./Servico";
 import Produto from "./Produto";
 import RG from "./RG";
-import { Genero } from "./Genero"; // Importa a enumeração Genero
-import Servico from "./Servico";
 import Telefone from "./Telefone";
 
-export default class Cliente {
+class Cliente {
   public nome: string;
   public nomeSocial: string;
-  private genero: Genero;
+  public genero: string;
   private cpf: CPF;
-  private rgs: Array<RG>;
+  private rg: RG;
   private dataCadastro: Date;
-  private telefones: Array<Telefone>;
+  private telefone: Telefone;
   private produtosConsumidos: Array<Produto>;
   private servicosConsumidos: Array<Servico>;
 
-  constructor(nome: string, nomeSocial: string, cpf: CPF, genero: Genero) {
+  constructor(
+    nome: string,
+    nomeSocial: string,
+    genero: string,
+    cpf: CPF,
+    rg: RG,
+    telefone: Telefone,
+    dataCadastro: Date
+  ) {
     this.nome = nome;
     this.nomeSocial = nomeSocial;
-    this.cpf = cpf;
     this.genero = genero;
-    this.rgs = [];
-    this.dataCadastro = new Date();
-    this.telefones = [];
+    this.cpf = cpf;
+    this.rg = rg;
+    this.telefone = telefone;
+    this.dataCadastro = dataCadastro;
     this.produtosConsumidos = [];
     this.servicosConsumidos = [];
   }
 
-  // Métodos de acesso para o campo 'genero'
-  public get getGenero(): Genero {
-    return this.genero;
-  }
-
-  public set setGenero(genero: Genero) {
-    this.genero = genero;
-  }
-
-  public get getCpf(): CPF {
+  public get getCPF() {
     return this.cpf;
   }
 
-  public get getRgs(): Array<RG> {
-    return this.rgs;
+  public get getRG() {
+    return this.rg;
   }
 
-  public get getDataCadastro(): Date {
+  public get getDataCadastro() {
     return this.dataCadastro;
   }
 
-  public get getTelefones(): Array<Telefone> {
-    return this.telefones;
+  public get getDDD() {
+    return this.telefone.getDDD;
   }
 
-  public adicionarTelefone(telefone: Telefone): void {
-    this.telefones.push(telefone);
-  }
-
-  public adicionarProduto(produto: Produto): void {
-    this.produtosConsumidos.push(produto);
-  }
-
-  public adicionarServico(servico: Servico): void {
-    this.servicosConsumidos.push(servico);
+  public get getTelefone() {
+    return this.telefone.toString;
   }
 
   public get getProdutosConsumidos(): Array<Produto> {
@@ -72,4 +62,22 @@ export default class Cliente {
   public get getServicosConsumidos(): Array<Servico> {
     return this.servicosConsumidos;
   }
+
+  public get getQntProdConsumido(): number {
+    return this.produtosConsumidos.length;
+  }
+
+  public get getQntServConsumido(): number {
+    return this.servicosConsumidos.length;
+  }
+
+  public consumirProduto(produto: Produto) {
+    this.produtosConsumidos.push(produto);
+  }
+
+  public consumirServico(servico: Servico) {
+    this.servicosConsumidos.push(servico);
+  }
 }
+
+export default Cliente;

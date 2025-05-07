@@ -1,4 +1,4 @@
-export default class RG {
+class RG {
   private valor: string;
   private dataEmissao: Date;
 
@@ -7,11 +7,19 @@ export default class RG {
     this.dataEmissao = dataEmissao;
   }
 
-  public getValor(): string {
+  public get getValor() {
     return this.valor;
   }
 
-  public getDataEmissao(): Date {
+  public get getDataEmissao() {
     return this.dataEmissao;
   }
+
+  public toString() {
+    return `${
+      this.valor
+    } (emitido em ${this.dataEmissao.toLocaleDateString()})`;
+  }
 }
+
+export default RG;

@@ -1,4 +1,4 @@
-export default class CPF {
+class CPF {
   private valor: string;
   private dataEmissao: Date;
 
@@ -7,11 +7,19 @@ export default class CPF {
     this.dataEmissao = dataEmissao;
   }
 
-  public getValor(): string {
+  public get getValor() {
     return this.valor;
   }
 
-  public getDataEmissao(): Date {
+  public get getDataEmissao() {
     return this.dataEmissao;
   }
+
+  public toString() {
+    return `${
+      this.valor
+    } (Data de Emissão: ${this.dataEmissao.toLocaleDateString()})`;
+  }
 }
+
+export default CPF;
