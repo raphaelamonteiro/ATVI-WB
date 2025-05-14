@@ -1,9 +1,11 @@
-# 📚 Atividade prática ATVI  
+# 🧾 Atividade prática **ATVI – Sistema CLI**
+
 **Professor:** [Gerson da Penha Neto](https://github.com/gerson-pn)
 
 ---
 
 ## 🚀 Tecnologias utilizadas
+
 <div style="display: flex; gap: 10px;">
   <img align="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
   <img align="center" alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
@@ -12,53 +14,58 @@
 ---
 
 ## ☕ Contextualização
-Muitos microempresários não possuem um programa de cadastro de clientes. Eles acreditam que cadastrar clientes é uma tarefa que demanda muito tempo e não traz retorno, mas isso é um erro.  
-**Sem uma base de dados de clientes, não é possível obter informações relevantes sobre seus consumidores.**
 
-O cadastro de clientes é fundamental para melhorar as vendas de uma empresa, principalmente empresas pequenas como:
-- Cabeleireiros
-- Academias
-- Diversas modalidades do setor de serviços
+Muitos microempreendedores ainda não possuem um sistema organizado de **cadastro de clientes**. Acreditam que essa prática é demorada ou desnecessária — o que é um equívoco.
 
-Um bom programa de cadastro permite:
-- Contato mais próximo com os clientes
-- Conhecimento sobre as preferências individuais
-- Melhora nas estratégias de marketing e promoções personalizadas
+Sem uma **base de dados**, é impossível aplicar ações estratégicas como:
 
-**Pontos principais sobre o cadastro:**
-- Começar pelos dados mais relevantes
-- Manter os clientes sempre atualizados sobre novidades
-- Ofertar produtos ou serviços complementares
-- Criar uma base para análise estratégica futura
+* Promoções personalizadas
+* Melhoria no relacionamento com clientes
+* Campanhas de fidelização
+* Aumento do ticket médio
+
+Um sistema simples de cadastro pode beneficiar diretamente negócios como:
+
+* Salões de beleza
+* Academias
+* Barbearias
+* Clínicas de estética e outros serviços
 
 ---
 
 ## 💡 Atividade proposta
-Você é um empreendedor que está iniciando sua empresa.  
-Um dos primeiros clientes é o **💄 Grupo World Beauty (WB)**, que atua no ramo da estética, oferecendo:
-- Serviços para o público feminino: manicure, pedicure, design de sobrancelhas, corte e pintura de cabelos, estética facial (remoção de rugas, manchas, Botox) e tratamentos para emagrecimento.
-- Serviços para o público masculino: barbearia, modelagem de barba, corte de cabelo, tratamento para queda de cabelo e venda de produtos especializados.
+
+Você está começando sua jornada como empreendedor e recebeu seu primeiro cliente: o **💄 Grupo World Beauty (WB)**.
+
+A empresa atua com serviços estéticos voltados para públicos feminino e masculino, como:
+
+* Manicure, pedicure, corte e coloração de cabelos, estética facial, tratamentos para emagrecimento
+* Barbearia, modelagem de barba, venda de cosméticos especializados e tratamento capilar
 
 ### 🎯 Objetivo:
-Desenvolver uma **Agenda de Clientes** para o grupo WB.
 
-- Sistema **CLI** (Command-Line Interface)
-- Cada unidade terá **sua própria agenda** (dados não compartilhados)
+Desenvolver uma **Agenda de Clientes via terminal (CLI)** com funcionalidades essenciais para o negócio.
+
+* Cada unidade do grupo WB terá sua **agenda independente**
+* Projeto em **TypeScript**, rodando via **linha de comando (Node.js)**
 
 ---
 
 ## 🛠️ Funcionalidades obrigatórias
-- 📄 CRUD (Create, Read, Update e Delete) de clientes
-- 📄 CRUD de produtos ou serviços
-- 🛒 Registro de consumo de produtos ou serviços por cliente
-- 📋 Relatórios e listagens:
+
+* 📄 **CRUD completo** de:
+
+  * Clientes
+  * Produtos e/ou serviços
+* 🛒 Registro de consumo de clientes
+* 📋 Relatórios e listagens automáticas:
 
   1. Top 10 clientes que mais consumiram (por quantidade)
   2. Listagem de clientes separados por gênero
-  3. Produtos ou serviços mais consumidos (geral)
-  4. Produtos ou serviços mais consumidos por gênero
-  5. Top 10 clientes que menos consumiram (por quantidade)
-  6. Top 5 clientes que mais gastaram (por valor $$)
+  3. Produtos/serviços mais consumidos (geral)
+  4. Produtos/serviços mais consumidos por gênero
+  5. Top 10 clientes que menos consumiram
+  6. Top 5 clientes que mais gastaram (por valor)
 
 ---
 
@@ -66,10 +73,10 @@ Desenvolver uma **Agenda de Clientes** para o grupo WB.
 
 Antes de rodar o sistema, certifique-se de ter instalado:
 
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
-- npm (vem junto com o Node.js)
+* [Node.js](https://nodejs.org/) (versão 14 ou superior)
+* npm (vem junto com o Node.js)
 
-Verifique se estão instalados com:
+Verifique com:
 
 ```bash
 node -v
@@ -84,7 +91,7 @@ npm -v
 
 ```bash
 git clone https://github.com/raphaelamonteiro/ATVI-WB.git
-cd nome-da-pasta
+cd ATVI-WB
 ```
 
 2. **Instale as dependências:**
@@ -93,23 +100,25 @@ cd nome-da-pasta
 npm install typescript ts-node @types/node --save-dev
 ```
 
-3. **Execute o sistema:**
+3. **Execute o sistema CLI:**
 
 ```bash
 npx ts-node src/app/main.ts
 ```
 
-> Obs: o projeto é executado via CLI (linha de comando) e não possui interface gráfica.
+> ⚠️ O sistema funciona apenas no **terminal (CLI)** e **não possui interface gráfica**.
 
 ---
-
 ## 🧩 Materiais de apoio
-A equipe de TI do grupo WB forneceu um diagrama de classes e um repositório base para auxiliar:  
-🔗 [Repositório auxiliar - atvi-wb-typescript](https://github.com/gerson-pn/atvi-wb-typescript)
 
-> Observação: Grande parte do que o grupo precisa ainda **não está implementado** no repositório de apoio.
+A equipe WB forneceu:
+
+* 🔗 [Repositório base com estrutura inicial](https://github.com/gerson-pn/atvi-wb-typescript)
+* 📌 [Diagrama de classes proposto](https://github.com/gerson-pn/atvi-wb-typescript#readme)
 
 ---
 
 > Feito com 💙 e dedicação!
-> Por  [Raphaela Monteiro](https://github.com/raphaelamonteiro)
+> Por [Raphaela Monteiro](https://github.com/raphaelamonteiro)
+
+---
